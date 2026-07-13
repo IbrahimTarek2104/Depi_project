@@ -713,7 +713,7 @@ def recommend_movies(user_id, user_message="", top_n=1):
                 "predicted_rating": float(movie["predicted_rating"]),
                 "genres": str(movie.get("genres", "")),
                 "age_rating": str(movie.get("age_rating", "Teen")),
-                "reference_title": reference_title,
+                "reference_title": reference_title
             }
         )
 
